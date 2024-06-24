@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body style="background:gray">
+    <div id="stopwatch-box">
+    <h2>StopWatch</h2>
+    <div id="stopwatch">
+        <span><b>HH</b>00</span>
+        <span><b>MM</b>00</span>
+        <span><b>SS</b>00</span>
+    </div>
+
+    <div id="btn-box" style="margin-top: 50px;">
+        <button onclick="stopWatch(true,false, false)" class="btn">Start</button>
+        <button onclick="stopWatch(false,true, false)" class="btn">Stop</button>
+        <button onclick="stopWatch( false, false, true)" class="btn">Reset</button>
+    </div>
+</div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
